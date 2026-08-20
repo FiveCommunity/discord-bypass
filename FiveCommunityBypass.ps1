@@ -23,24 +23,28 @@ Write-Host "  ==================================================================
 Write-Host ""
 
 # -----------------------------------------------------------------------------
-# Configuração do proxy
+# Configuração do proxy (Lista de 10 proxies para dividir a carga)
 # -----------------------------------------------------------------------------
-$proxy = @{
-    Host = "p.webshare.io"
-    Port = 10000
-<<<<<<< HEAD
-    User = "SEU_USUARIO_AQUI"
-    Pass = "SUA_SENHA_AQUI"
-=======
-    User = "kdzsxvzy-1"
-    Pass = "dux9agx1arqi"
->>>>>>> d7bb86fdca218bfe35bee79c96ab920c05b6b9cf
-}
+$proxies = @(
+    @{ Host="p.webshare.io"; Port=10000; User="SEU_USUARIO_1"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10001; User="SEU_USUARIO_2"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10002; User="SEU_USUARIO_3"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10003; User="SEU_USUARIO_4"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10004; User="SEU_USUARIO_5"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10005; User="SEU_USUARIO_6"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10006; User="SEU_USUARIO_7"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10007; User="SEU_USUARIO_8"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10008; User="SEU_USUARIO_9"; Pass="SUA_SENHA_AQUI" },
+    @{ Host="p.webshare.io"; Port=10009; User="SEU_USUARIO_10"; Pass="SUA_SENHA_AQUI" }
+)
+
+# Sorteia um proxy aleatório para evitar bloqueio por muitas requisições
+$proxy = $proxies | Get-Random
 
 # Porta local aleatória para o relay (evita conflitos entre execuções)
 $relayPort = Get-Random -Minimum 49152 -Maximum 65535
 
-Write-Host "  Conectando ao servidor $($proxy.Host):$($proxy.Port)..." -ForegroundColor Yellow
+Write-Host "  Conectando ao servidor $($proxy.Host):$($proxy.Port) ($($proxy.User))..." -ForegroundColor Yellow
 
 # -----------------------------------------------------------------------------
 # Relay HTTP local (C# embutido)
