@@ -1,0 +1,21 @@
+# ── Executáveis compilados (não subir no repo) ─────────────────────────────────
+*.exe
+
+# ── Backup gerado automaticamente pelo script ──────────────────────────────────
+*.bak
+
+# ── Logs gerados pelo Discord ──────────────────────────────────────────────────
+*.log
+
+# ── Arquivos de sistema Windows ────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+
+# ── Pastas do VS Code ──────────────────────────────────────────────────────────
+.vscode/
+
+# ── Pastas do Visual Studio ────────────────────────────────────────────────────
+.vs/
+
+# ── Temporários do Windows / PowerShell ───────────────────────────────────────
+$RECYCLE.BIN/
