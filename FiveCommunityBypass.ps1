@@ -28,8 +28,13 @@ Write-Host ""
 $proxy = @{
     Host = "p.webshare.io"
     Port = 10000
+<<<<<<< HEAD
     User = "SEU_USUARIO_AQUI"
     Pass = "SUA_SENHA_AQUI"
+=======
+    User = "kdzsxvzy-1"
+    Pass = "dux9agx1arqi"
+>>>>>>> d7bb86fdca218bfe35bee79c96ab920c05b6b9cf
 }
 
 # Porta local aleatória para o relay (evita conflitos entre execuções)
