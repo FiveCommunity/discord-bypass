@@ -90,13 +90,15 @@ Ao rodar o `FiveCommunityBypass_Setup.exe`:
 
 ## 🚀 Como usar
 
-1. Baixe e execute o `FiveCommunityBypass_Setup.exe`
-2. Clique em **Avançar** e instale normalmente
-3. Use o atalho **"Five Community Bypass"** na Área de Trabalho antes de entrar no servidor
-4. Aguarde a tela mostrar **"Tudo pronto!"** e o Discord abrir automaticamente
-5. Entre no servidor e aproveite a voz funcionando ✅
+### 📥 Download
+**[👉 Clique aqui para baixar a versão mais recente (v2.0)](https://github.com/FiveCommunity/discord-bypass/releases/latest)**
 
-> ⚠️ **Importante:** Sempre abra o Bypass **antes** de entrar no servidor FiveM.
+### Instalação e uso
+1. Baixe e execute o arquivo `FiveCommunityBypass_Setup.exe` da página de Releases.
+2. Clique em **Avançar** e instale normalmente.
+3. Use o atalho **"Five Community Bypass"** na Área de Trabalho **antes** de entrar no servidor.
+4. Aguarde a tela mostrar **"Tudo pronto!"** e o Discord abrir automaticamente.
+5. Entre no servidor e aproveite a voz funcionando ✅
 
 ---
 
