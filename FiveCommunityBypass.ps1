@@ -1,8 +1,8 @@
 # =============================================================================
 #  Five Community Bypass — Discord Voice Fix v2.0
 #  Criador: bkvini.ofc
-#  Descrição: Redireciona o Discord por um proxy dedicado na Oracle Cloud,
-#             corrigindo problemas de voz no servidor FiveM.
+#  Descrição: Redireciona o Discord por um proxy SOCKS5 dedicado,
+#             corrigindo bloqueios e problemas de voz no próprio Discord.
 # =============================================================================
 
 $ErrorActionPreference = "Stop"
