@@ -12,9 +12,9 @@ $ErrorActionPreference = "Stop"
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
-# Configuração do proxy (VPS Oracle via Cloudflare)
+# Configuração do proxy (Coloque o IP ou Domínio da sua VPS aqui)
 # -----------------------------------------------------------------------------
-$proxyHost = "discord.fivenetwork.dev"
+$proxyHost = "SEU_DOMINIO_OU_IP_AQUI"
 $proxyPort = 8080
 
 Write-Host "  Conectando ao servidor Proxy Oficial ($($proxyHost):$($proxyPort))..." -ForegroundColor Yellow
