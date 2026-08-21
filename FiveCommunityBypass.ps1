@@ -15,7 +15,7 @@ $ErrorActionPreference = "Stop"
 # Configuração do proxy (Coloque o IP ou Domínio da sua VPS aqui)
 # -----------------------------------------------------------------------------
 $proxyHost = "SEU_DOMINIO_OU_IP_AQUI"
-$proxyPort = 8080
+$proxyPort = 1080
 
 Write-Host "  Conectando ao servidor Proxy Oficial ($($proxyHost):$($proxyPort))..." -ForegroundColor Yellow
 
@@ -53,7 +53,7 @@ try
     $logErr = Join-Path $env:TEMP "discord_stderr.log"
 
     Start-Process -FilePath $discordExe -ArgumentList @(
-        "--proxy-server=http://$($proxyHost):$($proxyPort)",
+        "--proxy-server=socks5://$($proxyHost):$($proxyPort)",
         "--proxy-bypass-list=cdn.discordapp.com;*.discordapp.net;*.discord.media;<local>"
     ) -RedirectStandardOutput $logOut -RedirectStandardError $logErr
 
