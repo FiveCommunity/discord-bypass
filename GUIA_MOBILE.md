@@ -70,4 +70,5 @@ Para evitar que a internet inteira do celular passe pelo proxy:
 3. Pronto! Abra o seu Discord e as vozes vão funcionar perfeitamente.
 
 ---
-💡 *Dúvidas ou problemas? Abra um ticket com o suporte da Five Community.*
+💡 *Dúvidas ou problemas? Abra um ticket no suporte do nosso Discord:*  
+💬 **[Entrar no Servidor da Five Community (https://discord.gg/4CuXf8Zd3m)](https://discord.gg/4CuXf8Zd3m)**

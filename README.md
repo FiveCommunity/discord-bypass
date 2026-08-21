@@ -1,5 +1,8 @@
 # Five Community Bypass - Discord Voice Fix v2.0
 
+[![Discord](https://img.shields.io/discord/4CuXf8Zd3m?color=7289da&logo=discord&logoColor=white&label=Suporte%20Five%20Community)](https://discord.gg/4CuXf8Zd3m)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?logo=windows)
+
 Bypass em PowerShell para redirecionar o tráfego do Discord através de um proxy SOCKS5 dedicado. 
 Este projeto corrige problemas de bloqueios e falhas de conexão de voz/vídeo no próprio Discord.
 
