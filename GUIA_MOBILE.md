@@ -32,11 +32,13 @@ Para não precisar digitar nada, você pode adicionar o proxy automaticamente de
 
 *(Caso dê algum erro, você pode clicar em "Add a Proxy" e colocar os dados manualmente: Tipo `SOCKS5`, Host `discord.fivenetwork.dev`, Porta `1080`)*
 
-### Passo 3: Conectar e Usar
-1. Na tela inicial do Potatso, clique no botão azul redondo gigante de Play (▶️).
-2. O iOS vai perguntar se você permite que o app crie uma configuração de VPN. Clique em **Permitir** (Allow) e coloque sua senha/Face ID.
-3. Pronto! Quando aparecer o ícone "VPN" na barra superior do iPhone, o seu celular já está usando o bypass! 
-4. Pode abrir o aplicativo do Discord e entrar nas calls de voz. Tudo vai rodar perfeitamente.
+### Passo 3: O Macete para Conectar e Falar!
+Para que a sua voz funcione perfeitamente no celular e não fique muda, você precisa fazer um "macete" muito simples:
+1. Na tela inicial do Potatso, clique no botão azul redondo gigante de Play (▶️) para **LIGAR** o proxy. (O iOS vai pedir permissão de VPN na primeira vez, clique em Permitir).
+2. **Feche o seu Discord totalmente** (arraste ele para cima nos aplicativos recentes) e abra-o novamente.
+3. Entre na sala de voz do Discord.
+4. Assim que você entrar na sala e a voz conectar, volte no Potatso e **DESLIGUE** o proxy.
+5. Pronto! O Discord vai dar um pequeno solavanco e voltar ao normal. Agora você consegue ouvir e falar perfeitamente sem bloqueios!
 
 ---
 
@@ -64,10 +66,13 @@ Para evitar que a internet inteira do celular passe pelo proxy:
 3. Procure pelo **Discord** na lista e marque a caixinha dele.
 4. Volte para a tela anterior.
 
-### Passo 4: Conectar e Usar
-1. Na tela inicial, clique no botão azul gigante **Start** (Iniciar).
-2. O Android vai pedir permissão para criar uma conexão de VPN. Clique em **OK**.
-3. Pronto! Abra o seu Discord e as vozes vão funcionar perfeitamente.
+### Passo 4: O Macete para Conectar e Falar!
+Para que a sua voz funcione perfeitamente no celular e não fique muda, você precisa fazer um "macete" muito simples:
+1. Na tela inicial do Super Proxy, clique no botão azul gigante **Start** para **LIGAR** o proxy. (O Android vai pedir permissão de VPN, clique em OK).
+2. **Feche o seu Discord totalmente** (feche ele na lista de aplicativos abertos) e abra-o novamente.
+3. Entre na sala de voz do Discord.
+4. Assim que você entrar na sala e a voz conectar, volte no Super Proxy e clique em **Stop** para **DESLIGAR** o proxy.
+5. Pronto! A mágica acontece: você continuará na sala de voz, mas agora sua internet e o seu microfone vão voltar ao normal e funcionando 100%!
 
 ---
 💡 *Dúvidas ou problemas? Abra um ticket no suporte do nosso Discord:*  
