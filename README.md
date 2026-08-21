@@ -21,7 +21,7 @@ Este projeto foi disponibilizado de forma open source. Para utilizar na sua comu
 
 ## 📥 Como Instalar e Usar (Jogadores do PC)
 A instalação é incrivelmente simples e não exige conhecimentos técnicos:
-1. Faça o download do arquivo `FiveCommunityBypass_Setup.exe` na aba de [Releases](https://github.com/ViniModder/discord-bypass/releases/latest) deste repositório.
+1. Faça o download direto do arquivo [**FiveCommunityBypass_Setup.exe**](https://github.com/FiveCommunity/discord-bypass/releases/download/v2.0/FiveCommunityBypass_Setup.exe) clicando no link.
 2. Dê dois cliques no arquivo baixado para abri-lo.
 3. O Bypass abrirá um terminal e conectará automaticamente aos servidores oficiais de proxy da comunidade.
 4. Em seguida, ele vai encontrar o seu Discord, fechar a versão atual e abrir uma versão limpa conectada ao bypass!
