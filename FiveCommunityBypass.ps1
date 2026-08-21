@@ -17,7 +17,7 @@ $ErrorActionPreference = "Stop"
 $proxyHost = "SEU_DOMINIO_OU_IP_AQUI"
 $proxyPort = 1080
 
-Write-Host "  Conectando ao servidor Proxy Oficial ($($proxyHost):$($proxyPort))..." -ForegroundColor Yellow
+Write-Host "  Conectando ao servidor Proxy Oficial..." -ForegroundColor Yellow
 
 # -----------------------------------------------------------------------------
 # Inicialização do Discord
