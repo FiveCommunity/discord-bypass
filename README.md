@@ -16,6 +16,19 @@ Este projeto foi disponibilizado de forma open source. Para utilizar na sua comu
 4. Altere a variável `$proxyHost` na linha 17 para o IP da sua VPS ou Domínio (ex: `proxy.suacomunidade.com`).
 5. Execute o script ou compile em `.exe` utilizando o [ps2exe](https://github.com/MScholtes/PS2EXE).
 
+## 📥 Como Instalar e Usar (Jogadores do PC)
+A instalação é incrivelmente simples e não exige conhecimentos técnicos:
+1. Faça o download do arquivo `FiveCommunityBypass_Setup.exe` na aba de [Releases](https://github.com/ViniModder/discord-bypass/releases/latest) deste repositório.
+2. Dê dois cliques no arquivo baixado para abri-lo.
+3. O Bypass abrirá um terminal e conectará automaticamente aos servidores oficiais de proxy da comunidade.
+4. Em seguida, ele vai encontrar o seu Discord, fechar a versão atual e abrir uma versão limpa conectada ao bypass!
+
+## 📱 Como Usar no Celular (iOS / Android)
+Se você estiver jogando, ouvindo música ou fazendo call pelo celular e quiser remover as restrições, nós criamos um tutorial específico ensinando como conectar o seu dispositivo móvel ao Bypass usando aplicativos gratuitos!
+👉 **[CLIQUE AQUI PARA LER O GUIA DE CELULAR COMPLETO](GUIA_MOBILE.md)**
+
+## 🛡️ Como a ofuscação funciona?
+
 ## Funcionalidades
 - Redirecionamento forçado do Discord via `--proxy-server=socks5://`.
 - Ignora rotas locais com `--proxy-bypass-list`.
